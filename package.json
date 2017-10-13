@@ -1,0 +1,17 @@
+{
+  "name": "jenkins",
+  "version": "1.0.0",
+  "description": "Project for storing Postman tests",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "api-tests-productions": "newman run tests/jsonplaceholder.com.postman_test_run.json"
+  },
+  "author": "Ana Acanski",
+  "license": "ISC",
+  "dependencies": {
+    "newman": "^3.8.3"
+  }
+}
